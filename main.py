@@ -13,7 +13,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # OpenWeatherMap API details
-API_KEY = "d9341d5b8d6e54bbfd3d7a56f16ded5b"  # Replace with your actual API key
+API_KEY = "ENTER THE ACTUAL API KEY HERE"  
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 
